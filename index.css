@@ -6,14 +6,29 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(img.jpg);
+    background-size: 100%;
+    
 }
 
 h1{
     margin: 5%;
+    display: flex;
 }
 
 button{
-    width: 8vw;
-    height: 3vw;
+    width: 4vw;
+    height: 4vw;
     margin: 2vw;
+    border-radius: 100vw;
+    border: none;
+    background-color: #fef9ff;
+    box-shadow: 0 4px #cac5b6;
+    text-align: center;
+    
+}
+
+.sinal{
+    background-color: rgb(116, 253, 253);
+    box-shadow: 0 4px #92b3b4;
 }
